@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Sakura Tours</h1>
+    <h2 id="subtitle">Authentic Japanese Tourist Experience</h2>
+    <h2>Enquiry</h2>
+    <!-- clicking on the submit button will cause 
+    the browser to send the form to the server 
+    By default, the method of the form is "GET" - relates to HTTP five methods 
+    TLDR: GET means we want to retrieve data from the server
+    POST means we want to initiate a new operation, usually to create new data -->
+    <form method="POST" id="enquiry-form">
+        <div> 
+            <label>Email:</label>
+            <input type="email" name="email"/>
+        </div>
+        <div>
+            <label>How did you hear about us?</label>
+            <input type="radio" name="hear-about" class="hear-about" value="word-of-mouth"/><label>Hear About</label>
+            <input type="radio" name="hear-about" class="hear-about" value="advertisement"/><label>Advertisement</label>
+            <input type="radio" name="hear-about" class="hear-about" value="social-media"/><label>Social Media</label>
+            <input type="radio" name="hear-about" class="hear-about" value="others"/><label>Others</label>
+        </div>
+        <div>
+            <label>What interests when you travel?</label>
+            <input type="checkbox" name="interests" class="interest" value="leisure"/><label>Leisure</label>
+            <input type="checkbox" name="interests" class="interest" value="sight-seeing"/><label>Sight Seeing</label>
+            <input type="checkbox" name="interests" class="interest" value="explore"/><label>Explore</label>
+            <input type="checkbox" name="interests" class="interest" value="shopping"/><label>Shopping</label>
+            <input type="checkbox" name="interests" class="interest" value="others"/><label>Others</label>
+        </div>
+        <div>
+            <button id="submitBtn">Submit</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
