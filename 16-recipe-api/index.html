@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Recipes search</h1>
+    <div>
+<input type="text" id="name" placeholder="Name of recipes"/>
+    </div>
+<div>
+    <select id="mealType">
+        <option value ="starter">starter</option>
+        <option value ="main">main</option>
+        <option value ="dessert">dessert</option>
+    </select>
+</div>
+<div>
+    <select id="difficulty">
+        <option value ="easy">easy</option>
+        <option value ="medium">medium</option>
+        <option value ="hard">hard</option>
+    </select>
+</div>
+<div>
+    <button id="searchBtn">Search</button>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.20.0/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
