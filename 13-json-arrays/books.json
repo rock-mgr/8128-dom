@@ -1,0 +1,26 @@
+[
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "pages": 310,
+        "image": "https://picsum.photos/id/301/150/150"
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "pages": 328,
+        "image": "https://picsum.photos/id/302/150/150"
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "pages": 281,
+        "image": "https://picsum.photos/id/305/150/150"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "pages": 279,
+        "image": "https://picsum.photos/id/304/150/150"
+    }
+]
